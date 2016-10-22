@@ -1,0 +1,8 @@
+<?php
+
+/**
+* PHP OOP Login Register Project
+* You can copy paste it
+* @package ooplr
+**/
+

@@ -25,3 +25,11 @@ $GLOBALS['config'] = array(
     )
 );
 
+//Auto Loading all classes
+spl_autoload_register(function($class) {
+    require_once 'classes/'. $class . '.php';
+});
+
+
+// Including functions
+require_once 'functions/sanitize.php';
