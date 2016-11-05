@@ -6,3 +6,11 @@
 * @package ooplr
 **/
 
+/**
+ * Token Class
+ * for CSRF - Cross-Site Request Forgery Protection
+ */
+
+class Token {
+    
+}
